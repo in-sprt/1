@@ -1,63 +1,70 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Владимир Ефанов - Дизайнер</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vladimir Efanov - Interactive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Vladimir Efanov</div>
+                <ul class="nav-menu">
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#services"><i class="fas fa-cog"></i> Services</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+                <a href="#" class="btn download-resume">Download Resume</a>
+            </nav>
+        </div>
+    </header>
 
-  <header>
-    <div class="container">
-      <a href="#" class="logo">Vladimir Efanov</a>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-        <a href="#" class="btn">Скачать резюме</a>
-      </nav>
+    <main>
+        <section id="portfolio" class="section">
+            <div class="container">
+                <div class="portfolio-filters">
+                    <button class="filter-button active" data-filter="all">All</button>
+                    <button class="filter-button" data-filter="graphic">Graphic Design</button>
+                    <button class="filter-button" data-filter="interior">Interior Design</button>
+                    <button class="filter-button" data-filter="3d">3D</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <!-- Portfolio items will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <aside class="contact-panel">
+        <div class="contact-info">
+            <h3>Contact</h3>
+            <p><i class="fas fa-phone"></i> +7 706 677 13 60</p>
+            <p><i class="fas fa-envelope"></i> vladimir.efanov@example.com</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Vladimir Efanov. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox">&times;</span>
+            <div id="lightbox-inner"></div>
+        </div>
     </div>
-  </header>
 
-  <section id="hero">
-    <div class="container">
-      <h1>Владимир Ефанов</h1>
-      <p class="subtitle">Графический и интерьерный дизайнер</p>
-      <p>Создаю уникальные визуальные решения и функциональные пространства.</p>
-    </div>
-  </section>
-
-  <section id="portfolio">
-    <div class="container">
-      <div class="filter">
-        <button class="active" data-filter="all">Все</button>
-        <button data-filter="graphic">Графический дизайн</button>
-        <button data-filter="interior">Интерьерный дизайн</button>
-        <button data-filter="3d">3D</button>
-      </div>
-      <div class="portfolio-grid">
-        <!--  Здесь будут работы из портфолио  -->
-      </div>
-    </div>
-  </section>
-
-  <aside class="sidebar">
-    <h3>Контакты</h3>
-    <ul>
-      <li><a href="tel:+77066771360">+7 706 677 13 60</a></li>
-      <li><a href="mailto:vladimir.efanov@example.com">vladimir.efanov@example.com</a></li>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">Behance</a></li>
-    </ul>
-  </aside>
-
-  <footer>
-    <div class="container">
-      <p>© 2023 Владимир Ефанов</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
