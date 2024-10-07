@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Владимир Ефанов - графический и интерьерный дизайнер. Создаю стильные и функциональные пространства и визуальные решения.">
+    <title>Владимир Ефанов - Дизайнер | Портфолио</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a href="#" class="logo">Sprtfolio</a>
+      <ul class="nav-menu">
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#portfolio">Портфолио</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+    <main>
+        
+<section id="hero">
+  <div class="parallax-bg"></div> 
+  <div class="container hero-content">
+    <h1>Владимир Ефанов</h1>
+    <p class="hero-subtitle">Графический и Интерьерный Дизайнер</p>
+    <p class="hero-description">Преобразую пространства и создаю визуальные решения, которые вдохновляют.</p>
+    <div class="hero-buttons">
+      <a href="#portfolio" class="btn">Посмотреть портфолио</a>
+      <a href="#contact" class="btn">Связаться со мной</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2>Обо мне</h2>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="images/profile.jpg" alt="Владимир Ефанов">
+      </div>
+      <div class="about-text">
+        <p>
+          Привет! Я Владимир, графический и интерьерный дизайнер с 5-летним опытом создания стильных и 
+          функциональных пространств и визуальных решений. Моя страсть - преобразовывать идеи в 
+          реальность, используя принципы дизайна, эргономики и эстетики. 
+        </p>
+        <p>
+          Я стремлюсь создавать гармоничные и вдохновляющие окружения, которые отражают 
+          индивидуальность клиента и соответствуют его потребностям.
+        </p>
+        <!--  Добавьте  сюда  больше  информации  о  себе  -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <h2>Услуги</h2>
+    <div class="services-grid">
+
+      <div class="service-item" data-category="graphic">
+        <div class="service-card-front">
+          <i class="fas fa-palette service-icon"></i>
+          <h3 class="service-title">Графический дизайн</h3>
+        </div>
+        <div class="service-card-back">
+          <p class="service-description">
+            Разработка логотипов, брендбуков, иллюстраций, макетов для печати и веб, 
+            а также создание визуальной айдентики для вашего бизнеса. 
+            Работаю с различными стилями и направлениями, гарантируя 
+            уникальный и запоминающийся результат. 
+          </p>
+        </div>
+      </div>
+
+      <div class="service-item" data-category="interior">
+        <div class="service-card-front">
+          <i class="fas fa-couch service-icon"></i>
+          <h3 class="service-title">Интерьерный дизайн</h3>
+        </div>
+        <div class="service-card-back">
+          <p class="service-description">
+            Планировка пространства, подбор мебели и материалов, 3D-визуализация. 
+            Создаю функциональные и эстетичные интерьеры жилых и коммерческих помещений.
+          </p>
+        </div>
+      </div>
+
+      <div class="service-item" data-category="autocad">
+        <div class="service-card-front">
+          <i class="fas fa-vector-square service-icon"></i>
+          <h3 class="service-title">AutoCAD</h3>
+        </div>
+        <div class="service-card-back">
+          <p class="service-description">
+            Проектирование и создание точных чертежей и планов помещений 
+            с использованием AutoCAD. 
+          </p>
+        </div>
+      </div>
+
+      <div class="service-item" data-category="3dsmax">
+        <div class="service-card-front">
+          <i class="fas fa-cubes service-icon"></i>
+          <h3 class="service-title">3Ds Max</h3>
+        </div>
+        <div class="service-card-back">
+          <p class="service-description">
+            Создание фотореалистичных 3D-моделей и визуализаций 
+            интерьеров, экстерьеров и объектов. 
+          </p>
+        </div>
+      </div>
+
+      <div class="service-item" data-category="photography">
+        <div class="service-card-front">
+          <i class="fas fa-camera-retro service-icon"></i>
+          <h3 class="service-title">Фотография</h3>
+        </div>
+        <div class="service-card-back">
+          <p class="service-description">
+            Профессиональная фотосъемка интерьеров, архитектуры и объектов. 
+            Высококачественные фотографии для вашего портфолио или бизнеса. 
+          </p>
+        </div>
+      </div>
+
+      <div class="service-item" data-category="video">
+        <div class="service-card-front">
+          <i class="fas fa-video service-icon"></i>
+          <h3 class="service-title">Видеомонтаж</h3>
+        </div>
+        <div class="service-card-back">
+          <p class="service-description">
+            Создание динамичных и engaging видеороликов и презентаций для 
+            вашего бренда или проекта.
+          </p>
+        </div>
+      </div>
+
+      <div class="service-item" data-category="ai">
+        <div class="service-card-front">
+          <i class="fas fa-brain service-icon"></i>
+          <h3 class="service-title">AI-искусство</h3>
+        </div>
+        <div class="service-card-back">
+          <p class="service-description">
+            Генерация креативных изображений и дизайн-концепций с помощью 
+            нейросетей.  
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="container">
+    <h2>Портфолио</h2>
+    <div class="portfolio-filters">
+      <button class="filter-button active" data-filter="all">Все</button>
+      <button class="filter-button" data-filter="graphic">Графический дизайн</button>
+      <button class="filter-button" data-filter="interior">Интерьерный дизайн</button>
+      <button class="filter-button" data-filter="branding">Брендинг</button>
+      <button class="filter-button" data-filter="illustration">Иллюстрация</button>
+      <!--  Добавьте  другие  категории  по  мере  необходимости  -->
+    </div>
+    <div class="portfolio-grid" id="portfolio-grid"></div>
+  </div>
+</section>
+        
+<section id="contact">
+  <div class="container">
+    <h2>Контакты</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <!--  Контактная  информация  -->
+        <p>
+          <i class="fas fa-map-marker-alt"></i> Казахстан
+        </p>
+        <p>
+          <i class="fas fa-phone"></i> <a href="tel:+77066771360">+7 706 677 13 60</a>
+        </p>
+        <p>
+          <i class="fas fa-envelope"></i> <a href="mailto:vladimir.efanov@example.com">vladimir.efanov@example.com</a>
+        </p>
+        <!--  Добавьте  другие  контакты  по  необходимости  -->
+      </div>
+      <div class="contact-form">
+        <h3>Связаться со мной</h3>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSeEEBv67u0q6N0li1Py1a3hDQTfyxY8ZrgImF44ldGv_7YzKg/formResponse" method="post" target="_blank">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="entry.2005620554" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Ваш телефон:</label>
+            <input type="tel" id="phone" name="entry.2141842069" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" name="entry.839337160" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+        
+    </main>
+
+<footer>
+  <div class="container">
+    <p>© 2023 Владимир Ефанов</p>
+    <div class="social-links">
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-behance"></i></a>
+      <!--  Добавьте  другие  ссылки  на  социальные  сети  -->
+    </div>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
