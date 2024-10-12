@@ -12,6 +12,10 @@ const portfolioItems = [
     { id: 10, title: "Architectural Rendering", category: "ai", image: "images/ai/2.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
     { id: 11, title: "Architectural Rendering", category: "ai", image: "images/ai/3.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
     { id: 12, title: "Architectural Rendering", category: "ai", image: "images/ai/4.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
+    { id: 13, title: "3D Product Visualization", category: "arch", image: "images/arch/1.jpg", description: "Photorealistic 3D rendering of a new smartphone model for pre-launch marketing materials." },
+    { id: 14, title: "Architectural Rendering", category: "arch", image: "images/arch/2.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
+    { id: 15, title: "Architectural Rendering", category: "arch", image: "images/arch/3.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
+    { id: 16, title: "Architectural Rendering", category: "arch", image: "images/arch/4.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
     // Add more items as needed
 ];
 
