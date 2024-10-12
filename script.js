@@ -1,11 +1,17 @@
 // Sample portfolio data
 const portfolioItems = [
-    { id: 1, title: "Modern Living Room", category: "interior", image: "images/interior1.jpg", description: "A sleek and contemporary living room design featuring clean lines and a neutral color palette." },
-    { id: 2, title: "Brand Identity", category: "graphic", image: "images/graphic1.jpg", description: "Comprehensive brand identity design including logo, color scheme, and typography for a tech startup." },
-    { id: 3, title: "3D Product Visualization", category: "3d", image: "images/3d1.jpg", description: "Photorealistic 3D rendering of a new smartphone model for pre-launch marketing materials." },
-    { id: 4, title: "Minimalist Kitchen", category: "interior", image: "images/interior2.jpg", description: "Efficient and stylish kitchen design maximizing space in a compact urban apartment." },
-    { id: 5, title: "Logo Design", category: "graphic", image: "images/graphic2.jpg", description: "Modern and versatile logo design for a sustainable fashion brand." },
-    { id: 6, title: "Architectural Rendering", category: "3d", image: "images/3d2.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
+    { id: 1, title: "Modern Living Room", category: "interior", image: "images/interior/1.jpg", description: "A sleek and contemporary living room design featuring clean lines and a neutral color palette." },
+    { id: 2, title: "Minimalist Kitchen", category: "interior", image: "images/interior/2.jpg", description: "Efficient and stylish kitchen design maximizing space in a compact urban apartment." },
+    { id: 3, title: "Minimalist Kitchen", category: "interior", image: "images/interior/3.jpg", description: "Efficient and stylish kitchen design maximizing space in a compact urban apartment." },
+    { id: 4, title: "Minimalist Kitchen", category: "interior", image: "images/interior/4.jpg", description: "Efficient and stylish kitchen design maximizing space in a compact urban apartment." },
+    { id: 5, title: "Brand Identity", category: "graphic", image: "images/graphic/1.jpg", description: "Comprehensive brand identity design including logo, color scheme, and typography for a tech startup." },
+    { id: 6, title: "Logo Design", category: "graphic", image: "images/graphic/2.jpg", description: "Modern and versatile logo design for a sustainable fashion brand." },
+    { id: 7, title: "Logo Design", category: "graphic", image: "images/graphic/3.jpg", description: "Modern and versatile logo design for a sustainable fashion brand." },
+    { id: 8, title: "Logo Design", category: "graphic", image: "images/graphic/4.jpg", description: "Modern and versatile logo design for a sustainable fashion brand." },
+    { id: 9, title: "3D Product Visualization", category: "3d", image: "images/ai/1.jpg", description: "Photorealistic 3D rendering of a new smartphone model for pre-launch marketing materials." },
+    { id: 10, title: "Architectural Rendering", category: "3d", image: "images/ai/2.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
+    { id: 11, title: "Architectural Rendering", category: "3d", image: "images/ai/3.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
+    { id: 12, title: "Architectural Rendering", category: "3d", image: "images/ai/4.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
     // Add more items as needed
 ];
 
