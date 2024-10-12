@@ -8,10 +8,10 @@ const portfolioItems = [
     { id: 6, title: "Logo Design", category: "graphic", image: "images/graphic/2.jpg", description: "Modern and versatile logo design for a sustainable fashion brand." },
     { id: 7, title: "Logo Design", category: "graphic", image: "images/graphic/3.jpg", description: "Modern and versatile logo design for a sustainable fashion brand." },
     { id: 8, title: "Logo Design", category: "graphic", image: "images/graphic/4.jpg", description: "Modern and versatile logo design for a sustainable fashion brand." },
-    { id: 9, title: "3D Product Visualization", category: "3d", image: "images/ai/1.jpg", description: "Photorealistic 3D rendering of a new smartphone model for pre-launch marketing materials." },
-    { id: 10, title: "Architectural Rendering", category: "3d", image: "images/ai/2.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
-    { id: 11, title: "Architectural Rendering", category: "3d", image: "images/ai/3.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
-    { id: 12, title: "Architectural Rendering", category: "3d", image: "images/ai/4.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
+    { id: 9, title: "3D Product Visualization", category: "ai", image: "images/ai/1.jpg", description: "Photorealistic 3D rendering of a new smartphone model for pre-launch marketing materials." },
+    { id: 10, title: "Architectural Rendering", category: "ai", image: "images/ai/2.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
+    { id: 11, title: "Architectural Rendering", category: "ai", image: "images/ai/3.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
+    { id: 12, title: "Architectural Rendering", category: "ai", image: "images/ai/4.jpg", description: "Detailed 3D visualization of a contemporary office building showcasing innovative sustainable features." },
     // Add more items as needed
 ];
 
